@@ -27,5 +27,5 @@ backend "s3" {
 }
 
 output "public_ip" {
-  value = ["${aws_instance.blick-prod.*.public_ip}"]
+  value = ["${aws_instance.blick-stage.*.public_ip}"]
 }
