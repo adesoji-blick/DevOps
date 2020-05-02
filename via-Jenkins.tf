@@ -5,7 +5,7 @@ provider "aws" {
 
 resource "aws_instance" "blick-stage" {
 
-    ami             = "ami-021321e9bc16d5186"
+    ami             = "ami-054362537f5132ce2"
     key_name         = "blick-devops"
     instance_type    = "t2.micro"
     subnet_id       = "subnet-09470e94c33ebd976"
