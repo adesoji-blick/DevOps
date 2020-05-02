@@ -9,7 +9,7 @@ resource "aws_instance" "blick-stage" {
     key_name         = "blick-devops"
     instance_type    = "t2.micro"
     subnet_id       = "subnet-09470e94c33ebd976"
-    count            = 4
+    count            = 1
 
 
     tags = {
